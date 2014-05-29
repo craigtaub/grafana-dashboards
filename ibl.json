@@ -156,14 +156,18 @@
                     },
                     "targets": [
                         {
-                            "target": "alias(stats.counters.bbc.iplayer.live.exceptions.bambooError500.count, 'Bamboo 500s / s')"
+                            "target": "alias(stats.counters.bbc.iplayer.live.exceptions.bambooErrorIbl500.count, 'Bamboo iBL 500s / s')"
+                        },
+                        {
+                            "target": "alias(stats.counters.bbc.iplayer.live.exceptions.bambooErrorProxy500.count, 'Bamboo Proxy 500s / s')"
                         },
                         {
                             "target": "alias(stats.counters.bbc.ibl.live.exceptions.critical_request_failure.count, 'iBL critical failure / s')"
                         }
                     ],
                     "aliasColors": {
-                        "Bamboo 500s / s": "rgb(234, 184, 57)",
+                        "Bamboo iBL 500s / s": "rgb(234, 184, 57)",
+                        "Bamboo Proxy 500s / s": "rgb(200, 180, 57)",
                         "iBL critical failure / s": "rgb(226, 77, 66)"
                     },
                     "aliasYAxis": {
